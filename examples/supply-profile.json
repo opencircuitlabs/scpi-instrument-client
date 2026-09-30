@@ -1,0 +1,11 @@
+{
+  "name": "Generic programmable supply",
+  "commands": {
+    "setVoltage": "SOURce:VOLTage",
+    "setCurrent": "SOURce:CURRent",
+    "enable": "OUTPut",
+    "measureVoltage": "MEASure:VOLTage",
+    "measureCurrent": "MEASure:CURRent"
+  },
+  "limits": { "voltage": [0, 30], "current": [0, 5] }
+}
